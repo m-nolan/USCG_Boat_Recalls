@@ -6,8 +6,13 @@ The U.S. Coast Guard makes boat recall data going back to the early 1980's publi
 This was brought to my attention by the great newsletter [data-is-plural](https://www.data-is-plural.com/) which shares a weekly list of fun publicly available datasets for you to poke at and plot out.
 Unfortunately, this boat recall dataset isn't readily downloadable as a table file. I quickly wrote this web scraper to collect that data into a single CSV file.
 
+## Dependencies
+- `pandas`
+- `tqdm`
+
 ## Contents
-- `scrape_uscg_boat_recall_data.ipnb` is a notebook of python code that scrapes the recalls website.
+- `scrape_uscg_boat_recall_data.ipynb` is a python script that scrapes the recalls website. Use this to generate the data table.
+- `scrape_uscg_boat_recall_data.ipynb` is a notebook of python code that scrapes the recalls website. This was a scratchpad, use the script instead.
 - `uscg_boat_recalls.csv` is a CSV table file containing information about individual boat recalls in the U.S.
     - Fields:
         - Number: alphanumeric ID for each recall
