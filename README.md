@@ -12,7 +12,7 @@ Unfortunately, this boat recall dataset isn't readily downloadable as a table fi
 
 ## Contents
 - `scrape_uscg_boat_recall_data.ipynb` is a python script that scrapes the recalls website. Use this to generate the data table.
-- `scrape_uscg_boat_recall_data.ipynb` is a notebook of python code that scrapes the recalls website. This was a scratchpad, use the script instead.
+- `scrape_uscg_boat_recall_data.py` is a notebook of python code that scrapes the recalls website. This was a scratchpad, use the script instead.
 - `uscg_boat_recalls.csv` is a CSV table file containing information about individual boat recalls in the U.S.
     - Fields:
         - Number: alphanumeric ID for each recall
