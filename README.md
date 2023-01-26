@@ -1,5 +1,8 @@
 # USCG Boat Recall Data - Web Scraper
-Michael Nolan, 2023.01.25
+Michael Nolan
+
+Created: 2023.01.25
+Updated: 2023.01.26 (added extended data table)
 
 ## Introduction
 The U.S. Coast Guard makes boat recall data going back to the early 1980's publicly available here: https://uscgboating.org/content/recalls.php.
