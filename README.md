@@ -7,6 +7,7 @@ This was brought to my attention by the great newsletter [data-is-plural](https:
 Unfortunately, this boat recall dataset isn't readily downloadable as a table file. I quickly wrote this web scraper to collect that data into a single CSV file.
 
 ## Dependencies
+- `numpy`
 - `pandas`
 - `tqdm`
 
